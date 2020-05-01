@@ -1,0 +1,42 @@
+@charset "UTF-8";
+nav {
+  background-color: #4169E1;
+  overflow: hidden; }
+  nav .brand-logo {
+    padding-left: 5vw;
+    overflow: auto; }
+
+.page-footer {
+  background-color: #4169E1;
+  width: 100vw;
+  text-align: center;
+  padding: 2vh 0vw;
+  position: fixed;
+  bottom: 0vh; }
+
+.main-container {
+  padding-top: 2vh;
+  padding-bottom: 10vh; }
+  .main-container .company-left-tool-table {
+    width: 25vw; }
+
+.company-list-card {
+  display: inline-block;
+  padding: 3px 0px; }
+
+.company-list-card:hover {
+  color: #A06060; }
+
+/* Zobrazení na mobilním telefonu nefunguje, proto tento kód */
+@media only screen and (max-width: 600px) {
+  .navbar-fixed {
+    padding-left: 0vw;
+    margin-left: 0vw; }
+
+  nav {
+    padding-left: 0vw;
+    margin-left: 0vw; }
+    nav .brand-logo {
+      padding-left: 0vw;
+      margin-left: 0vw;
+      font-size: 13px; } }
