@@ -8,7 +8,9 @@
 
 3. Spusťte v SQL konzoli obsah souborů sql_create.txt a sql_init.txt. V tomto pořadí.
 
-4. Hotovo! Nyní by aplikace měla fungovat.
+4. Vytvořte adresář cache v kořenovém adresáři aplikace (složka www)
+
+5. Hotovo! Nyní by aplikace měla fungovat.
 
 ## Adresy
 
